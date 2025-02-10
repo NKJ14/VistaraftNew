@@ -1,9 +1,10 @@
 import logo from "@/assets/logoVista.jpg";
-import { useState, useEffect } from "react";
+
 function Header() {
+
   return (
-    <nav class="sticky top-0 left-0 bg-white border-gray-200 dark:bg-gray-900 w-full">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav class={`sticky top-0 left-0 border-gray-200 dark:bg-gray-900 w-full`}>
+      <div class="max-w-screen-xl flex flex-wrap items-center bg-transparent justify-between mx-auto p-4">
         <a
           href="/"
           class="flex items-center space-x-3 rtl:space-x-reverse"
@@ -57,7 +58,7 @@ function Header() {
                 href="tel:+8384076491"
                 class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                +91 8384076491
+                Call Us
               </a>
             </li>
             <li>
