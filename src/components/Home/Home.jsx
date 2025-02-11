@@ -28,7 +28,7 @@ function Home() {
         </h1>
         <br/>
         <br/>
-      <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 m-5">
         <Card photo={photo1} />
         <Card photo={photo2} />
         <Card photo={photo3} />
